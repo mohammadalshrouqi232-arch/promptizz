@@ -27,7 +27,6 @@ jobs:
         run: |
           mkdir site
           cp index.html site/
-          cp .nojekyll site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
